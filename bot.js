@@ -39,3 +39,4 @@ client.on('message', message => {
       })
   }
 })et cpuSpeed = (cpu[0].speed / 1000) + "MHZ";
+client.login(process.env.BOT_TOKEN);
