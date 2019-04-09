@@ -10,5 +10,4 @@ client.on('message', msg => {
     msg.reply('سرعت البوت (ms24)!');
   }
 });
-
 client.login(process.env.BOT_TOKEN);
